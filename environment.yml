@@ -1,0 +1,25 @@
+name: llm-finetune
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - datasets
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit
+  - transformers
+  - accelerate
+  - bitsandbytes
+  - trl
+  - peft
+  - wandb
+  - dotenv
+  - tokenizers
+  - jupyterlab
+  - pip:
+      - peft
